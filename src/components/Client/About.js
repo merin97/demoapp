@@ -3,39 +3,39 @@ import React from "react";
 
 const About = () => {
     return(
-        <section class="container">
-        <div class="profile-grid my-1">
+        <section className="container">
+        <div className="profile-grid my-1">
          
-        <div class="profile-top bg-primary p-2">
+        <div className="profile-top bg-primary p-2">
           <img
-            class="round-img my-1"
+            className="round-img my-1"
             src="https://icons-for-free.com/iconfiles/png/512/business+finance+marketing+notebook+woman+icon-1320073244553154330.png"
             alt=""
           />
-          <h1 class="large">Merin Mary Philip</h1>
-          <p class="lead">Systems Engineer at Infosys</p>
+          <h1 className="large">Merin Mary Philip</h1>
+          <p className="lead">Systems Engineer at Infosys</p>
           
         </div>
 
-        <div class="profile-about bg-light p-2">
-          {/* <h2 class="text-primary">About</h2>
+        <div className="profile-about bg-light p-2">
+          {/* <h2 className="text-primary">About</h2>
           <p>
             Just another lost Soul
           </p>
-          <div class="line"></div> */}
-          <h2 class="text-primary">Skill Set</h2>
-          <div class="skills">
-            <div class="p-1"><i class="fa fa-check"></i> HTML</div>
-            <div class="p-1"><i class="fa fa-check"></i> CSS</div>
-            <div class="p-1"><i class="fa fa-check"></i> JavaScript</div>
-            <div class="p-1"><i class="fa fa-check"></i> React</div>
+          <div className="line"></div> */}
+          <h2 className="text-primary">Skill Set</h2>
+          <div className="skills">
+            <div className="p-1"><i className="fa fa-check"></i> HTML</div>
+            <div className="p-1"><i className="fa fa-check"></i> CSS</div>
+            <div className="p-1"><i className="fa fa-check"></i> JavaScript</div>
+            <div className="p-1"><i className="fa fa-check"></i> React</div>
           </div>
         </div>
 
-        <div class="profile-exp bg-white p-2">
-          <h2 class="text-primary">Experience</h2>
+        <div className="profile-exp bg-white p-2">
+          <h2 className="text-primary">Experience</h2>
           <div>
-            <h3 class="text-dark">Infosys</h3>
+            <h3 className="text-dark">Infosys</h3>
             <p>August 2021 - Current</p>
             <p><strong>Position: </strong>System Engineer</p>
             <p>
@@ -45,8 +45,8 @@ const About = () => {
         </div>
 
 
-        <div class="profile-edu bg-white p-2">
-          <h2 class="text-primary">Education</h2>
+        <div className="profile-edu bg-white p-2">
+          <h2 className="text-primary">Education</h2>
           <div>
             <h3>Marian Engineering College</h3>
             <p>2015 - 2019</p>
